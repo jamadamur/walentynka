@@ -81,7 +81,8 @@ button {
   font-size: 1.1em;
   font-weight: 600;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #3f2525;
+  color: white;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   flex: 1; /* Make buttons equal width */
@@ -95,7 +96,6 @@ button:hover:not(:disabled) {
 
 #yes-btn {
     background: linear-gradient(135deg, #ff7eb3, #ff758c);
-    color: white;
     border: none;
 }
 
